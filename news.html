@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1,0">
+<title> site template</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<link rel="stylesheet" href="style.css">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</head>
+
+  <body class="container-fluid">
+	<section id="banner">
+
+		<div class="video-background">
+			<div class="video-foreground">
+				<iframe src="https://www.youtube.com/embed/6TQhyWvgFPk?controls=0&showinfo=0&rel=0&autoplay=1&loop=1&mute=1" frameborder="0" allowfullscreen></iframe>
+			</div>
+		</div>
+		<header>
+			<div id="logo"><img src="images/kt41.jpg" alt="club"><span class="brand">ISK-KI</span>  Karate club</div>
+
+			<nav role="navigation">
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="images.html">Images</a></li>
+					<li><a href="news.html">News</a></li>
+					<li><a href="about.html">About Us</a></li>
+				</ul>
+			</nav>
+
+		</header>
+		<div class="titles">
+			<h2 class="text text--secondary">International Shotokan Karate club</h2>
+			<h1 class="text text--primary">Karate</h1>
+		</div>
+	</section>
+  <main>
+    <h2 style="text-align: center;">Contact list Karate Club</h2>
+    <button type="button" class="btn btn-info btn-lg" onclick = "buildTable()">Click to create table</button>
+    <table class="table table-striped">
+      <thead>
+      <tr>
+      <th>First Name</th>
+      <th>Second Name</th>
+      <th>Age</th>
+      <th class="table-success">Exam</th>
+      <th>Group</th>
+
+    </tr>
+      </thead>
+      <tbody id = "tableContactBody"> </tbody>
+    </table>
+    <div>
+      <video></video>
+      <video></video>
+      <video></video>
+    </div>
+  </main>
+  <script src="js/index.js"></script>
+  <footer>
+    &copy; 2019
+  </footer>
+</body>
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</html>
